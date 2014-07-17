@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'grossa-admin';
+  src: url('../font/grossa-admin.eot?77259237');
+  src: url('../font/grossa-admin.eot?77259237#iefix') format('embedded-opentype'),
+       url('../font/grossa-admin.woff?77259237') format('woff'),
+       url('../font/grossa-admin.ttf?77259237') format('truetype'),
+       url('../font/grossa-admin.svg?77259237#grossa-admin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'grossa-admin';
+    src: url('../font/grossa-admin.svg?77259237#grossa-admin') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "grossa-admin";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-home:before { content: '\e800'; } /* '' */
+.icon-menu:before { content: '\e801'; } /* '' */
+.icon-spin1:before { content: '\e802'; } /* '' */
+.icon-folder-open-empty:before { content: '\e803'; } /* '' */
+.icon-user:before { content: '\e804'; } /* '' */
+.icon-tags:before { content: '\e805'; } /* '' */
+.icon-plus:before { content: '\e806'; } /* '' */
+.icon-minus:before { content: '\e807'; } /* '' */
+.icon-ok:before { content: '\e808'; } /* '' */
+.icon-info:before { content: '\e809'; } /* '' */
+.icon-camera:before { content: '\e80a'; } /* '' */
+.icon-videocam:before { content: '\e80b'; } /* '' */
+.icon-mail:before { content: '\e80c'; } /* '' */
+.icon-basket:before { content: '\e80d'; } /* '' */
+.icon-bullhorn:before { content: '\e80e'; } /* '' */
+.icon-eye:before { content: '\e80f'; } /* '' */
+.icon-user-add:before { content: '\e810'; } /* '' */
+.icon-user-delete:before { content: '\e811'; } /* '' */
+.icon-cancel:before { content: '\e812'; } /* '' */
+.icon-search:before { content: '\e813'; } /* '' */
+.icon-graduation-cap:before { content: '\e814'; } /* '' */
+.icon-gplus:before { content: '\e815'; } /* '' */
+.icon-facebook:before { content: '\e816'; } /* '' */
+.icon-linkedin:before { content: '\e817'; } /* '' */
+.icon-twitter:before { content: '\e818'; } /* '' */
+.icon-instagramm:before { content: '\e819'; } /* '' */
+.icon-skype:before { content: '\e81a'; } /* '' */
+.icon-youtube:before { content: '\e81b'; } /* '' */
+.icon-th-list:before { content: '\e81c'; } /* '' */
+.icon-marquee:before { content: '\e81d'; } /* '' */
+.icon-minus-circled:before { content: '\e81e'; } /* '' */
+.icon-plus-circled:before { content: '\e81f'; } /* '' */
+.icon-calendar:before { content: '\e820'; } /* '' */
+.icon-cog:before { content: '\e821'; } /* '' */
+.icon-trash:before { content: '\e822'; } /* '' */
+.icon-list-alt:before { content: '\e823'; } /* '' */
+.icon-vimeo:before { content: '\e824'; } /* '' */
+.icon-pinterest:before { content: '\e825'; } /* '' */
+.icon-location:before { content: '\e826'; } /* '' */
+.icon-list:before { content: '\e827'; } /* '' */
+
+
+
+/*
+   Animation example, for spinners
+*/
+.animate-spin {
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+  display: inline-block;
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-ms-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
