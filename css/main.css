@@ -100,12 +100,14 @@ textarea {
 /* typography */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 
-/* General styles */
+/*----------------------- General styles -----------------------*/
 html, body{
     height: 100%;
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #6f6f6f;
 }
 
 /* this color will be used throughout the admin */
@@ -121,8 +123,50 @@ html, body{
     border-color: #ef753f;
 }
 
+/*----------------------- FORMS -----------------------*/
+input, textarea, select{
+    background: transparent;
+    border: 1px #eceff1 solid;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    background-clip: padding-box;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
+textarea{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 250px
+}
 
+input, select{
+    height: 36px;
+}
+
+label{
+    font-weight: 600;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-style: italic;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-style: italic;  
+}
+
+:-ms-input-placeholder {  
+   font-style: italic;  
+}
 
 
 
