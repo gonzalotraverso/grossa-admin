@@ -98,8 +98,25 @@ textarea {
    ========================================================================== */
 
 
+/* General styles */
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
 
+/* this color will be used throughout the admin */
+.main-color-back{
+    background-color: #ef753f;
+}
 
+.main-color-type{
+    color: #ef753f;
+}
+
+.main-color-border-hover{
+    border-color: #ef753f;
+}
 
 
 
