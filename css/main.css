@@ -108,7 +108,18 @@ html, body{
     font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #6f6f6f;
+    width: 100%;
 }
+
+ul, li{
+    margin: 0;
+    padding: 0
+}
+
+ul{
+    list-style: none;
+}
+
 
 /* this color will be used throughout the admin */
 .main-color-back{
@@ -119,7 +130,7 @@ html, body{
     color: #ef753f;
 }
 
-.main-color-border-hover{
+.main-color-border-hover:hover{
     border-color: #ef753f;
 }
 
